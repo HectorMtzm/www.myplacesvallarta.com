@@ -1,0 +1,30 @@
+{
+  "name": "vallarta-casas",
+  "version": "1.0.0",
+  "description": "website containing all the properties available to rent of Patricia Boyle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorMtzm/www.myplacesvallarta.com.git"
+  },
+  "keywords": [
+    "houses",
+    "rent",
+    "puerto",
+    "vallarta",
+    "pv"
+  ],
+  "author": "Hector Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HectorMtzm/www.myplacesvallarta.com/issues"
+  },
+  "homepage": "https://github.com/HectorMtzm/www.myplacesvallarta.com#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
