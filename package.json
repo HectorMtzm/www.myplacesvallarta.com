@@ -4,7 +4,8 @@
   "description": "website containing all the properties available to rent of Patricia Boyle",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/main.scss resources/css/style.css --recursive"
   },
   "repository": {
     "type": "git",

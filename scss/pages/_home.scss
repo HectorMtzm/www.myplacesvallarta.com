@@ -1,0 +1,38 @@
+#intro-cards{
+    height: 700px;
+    width: 100%;
+    margin-top: -200px;
+    position: relative;
+
+    .background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        clip-path: polygon(0 90%, 100% 55%, 100% 100%, 0 100%);
+        background-color: #F2F6F9;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.houses{
+    background-color: #F2F6F9;
+}
+
+#mapLocations{
+    height: 700px;
+    background-color: #F2F6F9;
+    
+    #map{
+        height: 500px;
+        width: 80%;
+        margin: 0 auto;
+        border: solid white 7px;
+        border-radius: 5px;
+    }
+}
