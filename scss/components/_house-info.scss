@@ -1,29 +1,84 @@
 .house{
-    display: flex; 
+    & .container{
+        display: flex; 
+        padding: 25px 0;
+    }
+
+    &--1{
+        background-color: $color-background-1;
+    }
+
+    &--2{
+        // background: url('/resources/images/background1.PNG') no-repeat center center/cover;
+    }
+
+    &--3{
+        background-color: $color-background-1;
+    }
 
     &__info{
-        flex: 1 1 0px
+        flex: 1 1.5 0px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+
     }
 
     &__name{
-
+        margin-bottom: 30px;
     }
 
     &__description{
-
+        margin-bottom: 40px;
+        line-height: 1.4;
     }
 
     &__amenities{
-
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
     }
 
     &__amenity{
+        
+    }
+
+    &__property{
+        font-size: 18px;
+
+        &-value{
+            
+        }
 
     }
-    
+
+    &__icon{
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+        float: left;
+    }
+
+    &__buttons{
+        // display: flex;
+        // padding: 0 80px;
+        // justify-content: space-around;
+        margin-top: 40px;
+
+    }
+
     &__carousel{
-        flex: 1 1 0px;
-        border-radius: 10px;
+        flex: 1.5 1 0px;
+        border-radius: 5px;
         overflow: hidden;
+
+        &--1{
+            border: 5px white solid;
+        }
+
+        &--2{
+            border: 5px $color-background-1 solid;
+        }
     }
 }

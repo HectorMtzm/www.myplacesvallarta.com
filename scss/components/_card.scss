@@ -5,6 +5,7 @@
     background-color: #fff; 
     height: 450px;
     border-radius: 5px;
+    overflow: hidden;
     z-index: 1;
     box-shadow: -5px 5px 20px -7px #949494;
     cursor: pointer;
@@ -90,6 +91,5 @@
         line-height: .5;
         background-color: #FB5252;
       }
-
     }
   }

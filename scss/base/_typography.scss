@@ -1,18 +1,51 @@
-@font-face{
-    font-family: Aspire;
-    font-style: normal;
-    font-weight: 700;
-    src: url('/resources/fonts/AspireDemibold.ttf');
+@font-face {
+  font-family: Aspire;
+  font-style: normal;
+  font-weight: 700;
+  src: url('/resources/fonts/beach.ttf');
 }
-@font-face{
-    font-family: Youth;
-    font-style: normal;
-    font-weight: 700;
-    src: url("/resources/fonts/Youth.ttf");
+@font-face {
+  font-family: Youth;
+  font-style: normal;
+  font-weight: 700;
+  src: url('/resources/fonts/Youth.ttf');
 }
-@font-face{
-    font-family: WyntexBrasco;
-    font-style: normal;
-    font-weight: 700;
-    src: url("/resources/fonts/WyntexBrasco.ttf");
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600&family=Maitree:wght@400;500;600;700&family=Neuton:wght@400;700&display=swap');
+/*
+font-family: 'Neuton', serif;               Title
+font-family: 'Maitree', serif;              Headings
+font-family: 'Hind Madurai', sans-serif;    paragraph
+*/
+
+body {
+  font-family: $font-paragraph;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: $color-grey-dark-3;
+}
+
+.heading-primary {
+  font-family: $font-heading;
+	font-size: 45px;
+	line-height: 1.4;
+  font-weight: bold;
+}
+
+.heading-secondary {
+  font-size: 40px;
+	font-family: $font-heading;
+	line-height: 1.4;
+  font-weight: bold;
+  width: 100%;
+}
+
+.heading-tertiary {
+  font-size: 1.25rem;
+	font-family: $font-heading;
+	line-height: 1.4;
+  font-weight: 500;
+	width: 100%;
+	
 }

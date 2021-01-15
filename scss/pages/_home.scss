@@ -1,18 +1,8 @@
 #intro-cards{
-    height: 700px;
+    height: 550px;
     width: 100%;
     margin-top: -200px;
-    position: relative;
-
-    .background{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        clip-path: polygon(0 90%, 100% 55%, 100% 100%, 0 100%);
-        background-color: #F2F6F9;
-    }
+    
     
     .container{
         display: flex;
@@ -20,13 +10,37 @@
     }
 }
 
-.houses{
-    background-color: #F2F6F9;
+.description{
+    position: relative;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        clip-path: polygon(0 90%, 100% 20%, 100% 100%, 0 100%);
+        background-color: $color-background-1;
+    }
+
+    &__paragraph{
+        font-size: 22px;
+        padding: 0 100px;
+        text-align: justify;
+    }
 }
 
-#mapLocations{
+.houses{
+    &__title{
+        background-color: $color-background-1;
+    }
+}
+
+.locations{
     height: 700px;
-    background-color: #F2F6F9;
+    background: url('/resources/images/background1.PNG') no-repeat center center/cover;
     
     #map{
         height: 500px;

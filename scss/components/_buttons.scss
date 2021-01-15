@@ -11,9 +11,9 @@
 		padding: 0.875rem 2.5rem;
 		border-radius: 0.625rem;
 		transition: all 0.2s;
-		position: relative;
+		// position: relative;
 
-		border: none;
+
 		cursor: pointer;
 	}
 
@@ -32,6 +32,7 @@
 	&--white {
 		color: $color-grey-dark-3;
 		background: #fff;
+		border: 1px #DDD solid;
 	}
 
 	&--primary {
